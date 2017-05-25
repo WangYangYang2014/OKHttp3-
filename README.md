@@ -896,12 +896,12 @@ LRU的算法体现在：DiskLreCache的日志操作过程中，每一次读取�
 > * 每个网络请求对应一个stream，connection，connectionpool等数据，将它封装为StreamAllocation对象。
 
 具体的流程见下图：
-![image](http://of8cu1h2w.bkt.clouddn.com/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82API%E6%B5%81%E7%A8%8B.png)
+![image](http://upload-images.jianshu.io/upload_images/3406294-649407c17ad3f694.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 类之间的关系如下：
 
-![image](http://of8cu1h2w.bkt.clouddn.com/SA_%E8%BF%9E%E6%8E%A5_%E6%B5%81.png)
+![image](http://upload-images.jianshu.io/upload_images/3406294-03393d9820192aae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 几个主要的概念：
 
