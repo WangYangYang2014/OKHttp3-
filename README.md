@@ -287,7 +287,7 @@ OKHttpClient类中有个成员变量dispatcher负责请求的分发。既在真�
 
 OKHttp3中分发器只有一个类 ——Dispathcer.
 
-![image](http://of8cu1h2w.bkt.clouddn.com/Dispathcher.png =405x185)
+![image](http://of8cu1h2w.bkt.clouddn.com/Dispathcher.png)
 
 (1) 其中包含了线程池executorService：
 
